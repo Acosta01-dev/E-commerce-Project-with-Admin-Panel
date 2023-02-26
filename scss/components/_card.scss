@@ -1,0 +1,131 @@
+.producto-card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin: .5rem;
+    border-radius: 15px;
+    max-height: 30rem;
+
+    width: 18rem;
+
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .producto-card {
+        margin: 0px;
+        margin-bottom: 1rem;
+        width: 100%;
+        max-width: 18rem;
+        min-width: 10rem;
+    }
+}
+
+.producto-card_titulo {
+
+
+    text-align: left;
+
+}
+
+
+.producto-card_imagen {
+    width: 100%;
+
+
+
+
+    img {
+
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        border-radius: 15px;
+
+        height: 30vh;
+        width: 93%;
+        display: block;
+        margin: 10px auto;
+    }
+
+
+}
+
+.card-img-top {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 45vh;
+    width: 100%;
+
+    padding: 1rem;
+    padding-top: 0rem;
+
+}
+
+.card {
+
+    height: 10rem;
+
+}
+
+.producto-card_imagen-etiquetas {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+    margin: 5%;
+   
+
+    h3 {
+        margin-left: 2%;
+        font-weight: 900;
+    }
+}
+
+.producto-card_price {
+    display: flex;
+    flex-direction: row;
+    line-height: 17px;
+    font-weight: 600;
+
+    color: rgb(0, 77, 0);
+    
+}
+
+
+.producto-card_botones {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+
+
+    button {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        margin: .5rem;
+        margin-bottom: 0rem;
+        border: 0;
+        outline: 0;
+        font-family: "Poppins", sans-serif;
+
+        background-color: #555555;
+        color: #ffff;
+        border-radius: 500px;
+
+        cursor: pointer;
+
+    }
+
+}

@@ -1,0 +1,92 @@
+$background-color_1: rgb(24, 31, 37);
+$background-color_2: brown;
+$background-color_3: #f2f2f2;
+
+
+
+.img_table {
+	width: 100px;
+	height: 100px;
+}
+
+.login_screen {
+	width: 500px;
+	border-radius: 15px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-color: $background-color_1;
+	display: flex;
+	flex-direction: column;
+	input {
+		width: 94%;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0rem 5rem 0 1rem;
+		border: none;
+		outline: none;
+		font-size: 16px;
+		margin: 1rem;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.login_screen {
+		width: 80%;
+		input{
+			width: 90%;
+		}
+	}
+	
+}
+
+.login_screen_background {
+	background-color: $background-color_2;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	position: fixed;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+th {
+	text-align: left;
+	padding: 8px;
+}
+td {
+	text-align: left;
+	padding: 8px;
+}
+tr {
+	&:nth-child(2n) {
+		background-color: $background-color_3;
+	}
+}
+.admin_content {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+#edit,#delete{
+font-size: 2rem;
+color: green;
+}
+#delete{
+color: red	;
+}
+#logout{
+	
+	padding: 10px;
+	background-color: red;
+	border-radius: 15px;
+	color: beige;
+
+}
+

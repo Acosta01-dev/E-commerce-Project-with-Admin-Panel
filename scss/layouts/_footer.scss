@@ -1,0 +1,24 @@
+footer {
+	
+	background-color: #111111;
+	color: white;
+	padding: 1rem;
+	padding-bottom: 5rem;
+	font-family: $font-style;
+	font-weight: 900;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	
+	width: 100%;
+	div {
+		i {
+			margin-left: 25px;
+			font-size: 35px;
+			text-decoration: none;
+			color: white;
+		}
+	}
+}
