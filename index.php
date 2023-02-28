@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Automotores Guamini</title>
+  <title>Shop</title>
   <!-- icon -->
-  <link rel="icon" href="img/logo2.png" type="image/x-icon" />
+  <link rel="icon" href="./img/ico.png" type="image/x-icon" />
   <!-- Font    -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
